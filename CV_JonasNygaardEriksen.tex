@@ -1,0 +1,220 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Authors: Jonas Nygaard Eriksen
+% Encoding: UTF8
+% LaTeX File for CV
+% Last modified: January 5, 2015
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PREAMBLE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Setting up the document class
+\documentclass[11pt,a4paper,sans]{moderncv}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+%\usepackage{cmbright}
+
+% Setting up document geometry
+\usepackage[left=2cm,right=2cm,top=3cm,bottom=3cm]{geometry}
+\usepackage{setspace}
+\renewcommand{\baselinestretch}{1.1}
+\usepackage{microtype}
+
+% Setting up page numbering
+\usepackage{lastpage}
+\cfoot{\addressfont\itshape\textcolor{gray}{Page \thepage\ of \pageref{LastPage}}}
+
+% Allowing for multicolumn section
+\usepackage{multicol}
+
+% Declaring new commands
+\DeclareOldFontCommand{\rm}{\normalfont\rmfamily}{\mathrm}
+\DeclareOldFontCommand{\sf}{\normalfont\sffamily}{\mathsf}
+\DeclareOldFontCommand{\tt}{\normalfont\ttfamily}{\mathtt}
+\DeclareOldFontCommand{\bf}{\normalfont\bfseries}{\mathbf}
+\DeclareOldFontCommand{\it}{\normalfont\itshape}{\mathit}
+\DeclareOldFontCommand{\sl}{\normalfont\slshape}{\@nomath\sl}
+\DeclareOldFontCommand{\sc}{\normalfont\scshape}{\@nomath\sc}
+\DeclareRobustCommand*\cal{\@fontswitch\relax\mathcal}
+\DeclareRobustCommand*\mit{\@fontswitch\relax\mathnormal}
+
+% Setting up the CV style and color
+\moderncvstyle{banking}
+\moderncvcolor{black}
+
+% Setting up title and contact information
+\name{Jonas}{Nygaard Eriksen}
+\title{CV}
+\address{Fuglesangs Allé 4, DK-8210 Aarhus V}{Building 2622, Office 213}
+\phone{+4587166024}
+\email{jeriksen@econ.au.dk}
+\homepage{au.dk/en/jeriksen@econ.au.dk}
+\social[linkedin]{jonasnygaarderiksen}
+%\social[twitter]{JonasNygaard}
+\social[github]{JonasNygaard}
+%\extrainfo{additional information}
+%\photo[64pt][0.4pt]{picture}
+%\quote{Some quote}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% MAIN MATTER
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\makecvtitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PERSONAL INFORMATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Personal information}
+\cventry{}{January 21, 1988}{Date of birth}{}{}{}
+\cventry{}{Danish}{Nationality}{}{}{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education}
+
+\cventry{September 2012-present}
+        {Department of Economics and Business, Aarhus University and CREATES}
+        {Ph.D. in Economics and Business}
+        {Aarhus, Denmark} 
+        {}
+        {Advisors: Stig Vinther Møller and Charlotte Christiansen}
+
+\cventry{September 2014-December 2014}
+        {Cass Business School, City University London}
+        {Visiting Graduate Student}
+        {London, England}
+        {}
+        {Host: Reader in Finance Maik Schmeling}
+
+\cventry{September 2010-August 2012}
+        {School of Business and Social Sciences, Aarhus University}
+        {MSc. in Finance}
+        {Aarhus, Denmark}
+        {GPA: 11.5}
+        {Thesis: The output gap, consumption-based asset pricing, and the cross-sectional risk premia on stocks and bonds.}
+
+\cventry{Juli 2009-December 2009}
+        {Instituto Tecnol{\'o}gico de Estudios Superiores de Monterrey (ITESM)}
+        {Exchange student}
+        {Monterrey, Mexico}
+        {}
+        {}
+
+\cventry{September 2007-July 2010}
+        {School of Business and Social Sciences, Aarhus University}
+        {BSc. in Business Administration}
+        {Aarhus, Denmark}
+        {GPA: 10.1}
+        {Thesis: Forudsigelse af aktiemarkedet: En in-sample og out-of-sample undersøgelse af det aggregerede danske aktiemarked.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ACADEMIC EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Academic Experience}
+
+\cventry{Fall 2014}
+        {Applied Econometric Methods I and II}
+        {Guest lecturing}
+        {Aarhus University}
+        {Master's course}
+        {Responsible for two complete lectures with one being based on my own research.}
+
+\cventry{Spring 2013,2014,2015}
+        {HA and eocon programs}
+        {Supervision of Bachelor Theses}
+        {Aarhus University}
+        {}
+        {Supervision of bachelor theses in the field of financial economics and asset pricing.}
+
+\cventry{Fall 2010-present}
+        {Responsible for exercise sessions and assignments in the following courses:}
+        {Teaching Assistant}
+        {Aarhus University}
+        {}
+        {\begin{itemize}
+        \item Applied Econometric Methods I and II (Fall 2011,2012,2013)
+        \item Operations and Supply Chain Management (Spring 2011)
+        \item Costing Theory and Capital Budgeting (Fall 2010)
+        \end{itemize}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% RESEARCH PAPERS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+\section{Research Papers}
+
+\cventry{2014}
+        {Peer review. Published in \textit{Journal of Banking and Finance}, Vol. 49, pp. 459–468}
+        {Forecasting US Recessions: The Role of Sentiment}
+        {Aarhus University}
+        {}
+        {Joint work with Charlotte Christiansen and Stig Vinther Møller.}
+
+\cventry{2014}
+        {Working paper}
+        {Expected Business Conditions and Bond Risk Premia}
+        {Aarhus University}
+        {}
+        {Single authored.}
+
+\cventry{2014}
+        {Working paper}
+        {Global Economic Activity and Expected Returns}
+        {Aarhus University}
+        {}
+        {Joint work with Maik Schmeling and Christian Wagner.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% RESEARCH INTERESTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Research Interest}
+
+\begin{multicols}{2}
+    \begin{itemize}
+        \item Financial Economics
+        \item Time Series Econometrics
+        \item Empirical Finance
+        \item Asset Pricing
+        \item Asset Return Predictability
+        \item Forecasting
+    \end{itemize}
+\end{multicols}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% OTHER ACTIVITIES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Other Activities}
+
+\cventry{2013}
+        {AUPA}
+        {Vice-President of Aarhus University's Ph.D. Association}
+        {Aarhus University}
+        {}
+        {}
+
+\cventry{2013-present}
+        {PHABUSS}
+        {President Ph.D. Association at School of Business and Social Sciences}
+        {Aarhus University}
+        {}
+        {}
+
+\cventry{2013-present}
+        {}
+        {Member of the Finance Research Group}
+        {Aarhus University}
+        {}
+        {}
+
+
+
+
+\end{document}
